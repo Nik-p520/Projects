@@ -1,0 +1,105 @@
+
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding:0;    
+}
+
+body{
+    height: 80vh;
+    width: 100vw;
+    background:rgba(0,0,0,0.8)url(../Landing\ Page/images/bg1.jpg);
+    background-size:cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-blend-mode: darken;  
+}
+
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family:sans-serif;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.694)
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    color: rgba(255, 255, 255, 0.694);
+    font-size: 1rem;
+    margin-right: 25px;
+}
+
+a{
+    color: rgba(255, 255, 255, 0.694);
+    font-size: 1rem;
+    margin-right: 25px;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.main{
+    height: 400px;
+    padding: 180px 0;
+    text-align: center;    
+}
+
+.main h1{
+    color: white;
+    font-size: 3rem;
+     
+}
+
+.main p{
+    color: rgba(255, 255, 255, 0.694);
+}
+
+.main .btn{
+   background-color: blueviolet; 
+   border:none;
+   border-radius: 22px;
+   padding: 16px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 1rem;
+   font-weight: 600;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.footer{
+    display: flex;
+    /* justify-content: space-between; */
+    position: absolute;
+    bottom: 0;
+}
+
+.footer .copyright{
+    color: rgba(255, 255, 255, 0.694);
+    margin-left: 950px;
+}
+
+
