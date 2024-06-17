@@ -98,8 +98,9 @@ a:hover{
 }
 
 .footer .copyright{
+    font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.694);
-    margin-left: 950px;
+    margin-left: 990px;
 }
 
 
